@@ -473,8 +473,8 @@ void BlockExplorer::showEvent(QShowEvent*)
         updateNavButtons();
 
         if (!GetBoolArg("-txindex", false)) {
-            QString Warning = tr("Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (phore.conf).");
-            QMessageBox::warning(this, "Phore Core Blockchain Explorer", Warning, QMessageBox::Ok);
+            QString Warning = tr("Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (atheneum.conf).");
+            QMessageBox::warning(this, "Atheneum Core Blockchain Explorer", Warning, QMessageBox::Ok);
         }
     }
 }

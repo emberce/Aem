@@ -849,12 +849,12 @@ QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScroll
 border:0;
 }
 
-/* About Phore Dialog */
-QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Phore Contents */
+/* About Atheneum Dialog */
+QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Atheneum Contents */
 margin-left:10px;
 }
 
-QDialog#AboutDialog QLabel#label_2 { /* Margin for About Phore text */
+QDialog#AboutDialog QLabel#label_2 { /* Margin for About Atheneum text */
 margin-right:10px;
 }
 
@@ -1214,7 +1214,7 @@ min-height:100px;
 margin-right:20px;
 margin-left:0;
 margin-top:0;
-background-image: url(':/images/phore_logo_horizontal');
+background-image: url(':/images/atheneum_logo_horizontal');
 background-repeat:none;
 }
 

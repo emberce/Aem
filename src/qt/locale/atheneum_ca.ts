@@ -62,12 +62,12 @@
         <translation>Adreces de recepció</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són les teves adreces Phore per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
+        <source>These are your Atheneum addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són les teves adreces Atheneum per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Aquestes són les teves adreces Phore per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
+        <source>These are your Atheneum addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Aquestes són les teves adreces Atheneum per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>Phore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
-        <translation>Phore es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus PHR de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
+        <translation>Atheneum es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus PHR de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -418,12 +418,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Atheneum Core</source>
+        <translation>Atheneum Core</translation>
     </message>
     <message>
-        <source>Send coins to a Phore address</source>
-        <translation>Envia monedes a una adreça Phore</translation>
+        <source>Send coins to a Atheneum address</source>
+        <translation>Envia monedes a una adreça Atheneum</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -434,8 +434,8 @@
         <translation>&amp;Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Phore Core</source>
-        <translation>&amp;Sobre Phore Core</translation>
+        <source>&amp;About Atheneum Core</source>
+        <translation>&amp;Sobre Atheneum Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -458,12 +458,12 @@
         <translation>Obre el fitxer de configuració del Masternode</translation>
     </message>
     <message>
-        <source>Phore Core client</source>
-        <translation>Client Phore core</translation>
+        <source>Atheneum Core client</source>
+        <translation>Client Atheneum core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Phore network</source>
-        <translation><numerusform>%n connexió activa a la xarxa Phore</numerusform><numerusform>%n connexions actives a la xarxa Phore</numerusform></translation>
+        <source>%n active connection(s) to Atheneum network</source>
+        <translation><numerusform>%n connexió activa a la xarxa Atheneum</numerusform><numerusform>%n connexions actives a la xarxa Atheneum</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -814,8 +814,8 @@
         <translation>Edita l'adreça d'enviament</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Phore address.</source>
-        <translation>L'adreça introduïda "%1" no és una adreça Phore vàlida.</translation>
+        <source>The entered address "%1" is not a valid Atheneum address.</source>
+        <translation>L'adreça introduïda "%1" no és una adreça Atheneum vàlida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -860,16 +860,16 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Atheneum Core</source>
+        <translation>Atheneum Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Phore Core</source>
-        <translation>Sobre Phore Core</translation>
+        <source>About Atheneum Core</source>
+        <translation>Sobre Atheneum Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -915,12 +915,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to Phore Core.</source>
-        <translation>Benvingut a Phore Core.</translation>
+        <source>Welcome to Atheneum Core.</source>
+        <translation>Benvingut a Atheneum Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Phore Core will store its data.</source>
-        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del Phore Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Atheneum Core will store its data.</source>
+        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del Atheneum Core.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -931,8 +931,8 @@
         <translation>Usar una carpeta de dades personalitzada:</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Atheneum Core</source>
+        <translation>Atheneum Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1208,8 +1208,8 @@
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Phore after logging in to the system.</source>
-        <translation>Inicia Phore automàticament després d'identificar-te en el sistema.</translation>
+        <source>Automatically start Atheneum after logging in to the system.</source>
+        <translation>Inicia Atheneum automàticament després d'identificar-te en el sistema.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1719,8 +1719,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Phore Core is shutting down...</source>
-        <translation>Phore Core s'està tancant...</translation>
+        <source>Atheneum Core is shutting down...</source>
+        <translation>Atheneum Core s'està tancant...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1785,8 +1785,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Atheneum Core</source>
+        <translation>Atheneum Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1984,7 +1984,7 @@
     </message>
     </context>
 <context>
-    <name>phore-core</name>
+    <name>Atheneum-core</name>
     <message>
         <source>Can't mix while sync in progress.</source>
         <translation>No es pot mesclar mentre s'està sincronitzant.</translation>

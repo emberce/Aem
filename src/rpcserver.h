@@ -96,7 +96,7 @@ public:
 };
 
 /**
- * Phore RPC command dispatcher.
+ * Atheneum RPC command dispatcher.
  */
 class CRPCTable
 {

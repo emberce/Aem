@@ -3,6 +3,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017 The Phore developers
+// Copyright (c) 2018 The Atheneum developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -25,8 +26,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called Phore (http://www.phore.io),
- * which enables instant payments to anyone, anywhere in the world. Phore uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called Atheneum (http://www.AtheneumChain.io),
+ * which enables instant payments to anyone, anywhere in the world. Atheneum uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -65,18 +66,18 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/phore.conf are parsed in qt/phore.cpp's main()
+    // If Qt is used, parameters/atheneum.conf are parsed in qt/atheneum.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
     if (mapArgs.count("-?") || mapArgs.count("-help") || mapArgs.count("-version")) {
-        std::string strUsage = _("Phore Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("Atheneum Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
 
         if (mapArgs.count("-version")) {
             strUsage += LicenseInfo();
         } else {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  phored [options]                     " + _("Start Phore Core Daemon") + "\n";
+                        "  atheneumd [options]                     " + _("Start Atheneum Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -112,17 +113,17 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "phore:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "atheneum:"))
                 fCommandLine = true;
 
         if (fCommandLine) {
-            fprintf(stderr, "Error: There is no RPC client functionality in phored anymore. Use the phore-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in atheneumd anymore. Use the atheneum-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon) {
-            fprintf(stdout, "Phore server starting\n");
+            fprintf(stdout, "Atheneum server starting\n");
 
             // Daemonize
             pid_t pid = fork();
@@ -175,7 +176,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect phored signal handlers
+    // Connect atheneumd signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);

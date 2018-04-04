@@ -1,5 +1,6 @@
 // Copyright (c) 2017 The PIVX Core developers
 // Copyright (c) 2017 The Phore developers
+// Copyright (c) 2018 The Atheneum developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 

@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>選擇要匯出Phore幣的位址</translation>
+        <translation>選擇要匯出Atheneum幣的位址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>選擇要接收Phore幣的位址</translation>
+        <translation>選擇要接收Atheneum幣的位址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>接收的位址</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這是你用來付款的 Phore 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
+        <source>These are your Atheneum addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這是你用來付款的 Atheneum 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這是你用來接收款項的 Phore 位址, 建議你每次付款都使用新的位址.</translation>
+        <source>These are your Atheneum addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這是你用來接收款項的 Atheneum 位址, 建議你每次付款都使用新的位址.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,8 +164,8 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>Phore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
-        <translation>Phore 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 PHR 幣被可疑軟體或病毒偷走的風險.</translation>
+        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
+        <translation>Atheneum 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 PHR 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -227,16 +227,16 @@
         <translation>&amp;BIP 38 加密</translation>
     </message>
     <message>
-        <source>Enter a Phore Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>輸入你想 BIP 38 加密的 Phore 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
+        <source>Enter a Atheneum Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>輸入你想 BIP 38 加密的 Atheneum 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>位址:</translation>
     </message>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>對訊息簽名的 Phore 位址</translation>
+        <source>The Atheneum address to sign the message with</source>
+        <translation>對訊息簽名的 Atheneum 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -267,8 +267,8 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>使用簽章來證明你是該  Phore 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this Atheneum address</source>
+        <translation>使用簽章來證明你是該  Atheneum 位址的擁有者,</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -287,12 +287,12 @@
         <translation>&amp;BIP 38 解密</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>此訊息之 Phore 位址已簽章於</translation>
+        <source>The Atheneum address the message was signed with</source>
+        <translation>此訊息之 Atheneum 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
-        <translation>驗證訊息以確保該  Phore 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified Atheneum address</source>
+        <translation>驗證訊息以確保該  Atheneum 位址已被簽章</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -582,16 +582,16 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Atheneum Core</source>
+        <translation>Atheneum Core</translation>
     </message>
     <message>
-        <source>Send coins to a Phore address</source>
-        <translation>送出錢幣到 Phore 地址</translation>
+        <source>Send coins to a Atheneum address</source>
+        <translation>送出錢幣到 Atheneum 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and phore: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 phore 位址)</translation>
+        <source>Request payments (generates QR codes and Atheneum: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 Atheneum 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -602,24 +602,24 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Phore Core</source>
-        <translation>&amp;關於 Phore Core</translation>
+        <source>&amp;About Atheneum Core</source>
+        <translation>&amp;關於 Atheneum Core</translation>
     </message>
     <message>
-        <source>Show information about Phore Core</source>
-        <translation>顯示 Phore Core 相關資訊</translation>
+        <source>Show information about Atheneum Core</source>
+        <translation>顯示 Atheneum Core 相關資訊</translation>
     </message>
     <message>
-        <source>Modify configuration options for Phore</source>
-        <translation>修改 Phore 設定</translation>
+        <source>Modify configuration options for Atheneum</source>
+        <translation>修改 Atheneum 設定</translation>
     </message>
     <message>
-        <source>Sign messages with your Phore addresses to prove you own them</source>
-        <translation>使用你的 Phore 位址對訊息簽章, 來證明你是擁有者</translation>
+        <source>Sign messages with your Atheneum addresses to prove you own them</source>
+        <translation>使用你的 Atheneum 位址對訊息簽章, 來證明你是擁有者</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Phore addresses</source>
-        <translation>驗證訊息簽章與 Phore 位址吻合</translation>
+        <source>Verify messages to ensure they were signed with specified Atheneum addresses</source>
+        <translation>驗證訊息簽章與 Atheneum 位址吻合</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -650,8 +650,8 @@
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open a Phore: URI or payment request</source>
-        <translation>打開Phore: 位址或付款請求 </translation>
+        <source>Open a Atheneum: URI or payment request</source>
+        <translation>打開Atheneum: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -662,12 +662,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the Phore Core help message to get a list with possible Phore command-line options</source>
-        <translation>顯示 Phore Core 幫助訊息以取得 Phore 命令列表選項</translation>
+        <source>Show the Atheneum Core help message to get a list with possible Atheneum command-line options</source>
+        <translation>顯示 Atheneum Core 幫助訊息以取得 Atheneum 命令列表選項</translation>
     </message>
     <message>
-        <source>Phore Core client</source>
-        <translation>Phore Core 客戶端</translation>
+        <source>Atheneum Core client</source>
+        <translation>Atheneum Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -696,15 +696,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Atheneum Core</source>
+        <translation>Atheneum Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Atheneum Core</source>
+        <translation>Atheneum Core</translation>
     </message>
     </context>
 <context>
@@ -836,8 +836,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>對訊息簽名的 Phore 位址</translation>
+        <source>The Atheneum address to sign the message with</source>
+        <translation>對訊息簽名的 Atheneum 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -860,16 +860,16 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>使用簽章來證明你是該  Phore 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this Atheneum address</source>
+        <translation>使用簽章來證明你是該  Atheneum 位址的擁有者,</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>此訊息之 Phore 位址已簽章於</translation>
+        <source>The Atheneum address the message was signed with</source>
+        <translation>此訊息之 Atheneum 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
-        <translation>驗證訊息以確保該  Phore 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified Atheneum address</source>
+        <translation>驗證訊息以確保該  Atheneum 位址已被簽章</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -907,8 +907,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Atheneum Core</source>
+        <translation>Atheneum Core</translation>
     </message>
     </context>
 <context>
@@ -974,6 +974,6 @@
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>phore-core</name>
+    <name>Atheneum-core</name>
     </context>
 </TS>

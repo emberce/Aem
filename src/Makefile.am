@@ -66,15 +66,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += phored
+  bin_PROGRAMS += atheneumd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += phore-cli phore-tx
+  bin_PROGRAMS += atheneum-cli atheneum-tx
 endif
 
 .PHONY: FORCE
-# phore core #
+# atheneum core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   accumulators.h \
@@ -190,7 +190,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between phored and phore-qt
+# server: shared between atheneumd and atheneum-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -236,7 +236,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between phored and phore-qt, but only linked
+# wallet: shared between atheneumd and atheneum-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -332,7 +332,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
   libzerocoin/Params.cpp \
   libzerocoin/SerialNumberSignatureOfKnowledge.cpp
 
-# common: shared between phored, and phore-qt and non-server tools
+# common: shared between atheneumd, and atheneum-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   accumulators.cpp \
@@ -392,7 +392,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between phore-cli and phore-qt
+# cli: shared between atheneum-cli and atheneum-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -402,7 +402,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-phored_LDADD = \
+atheneumd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -414,26 +414,26 @@ phored_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-phored_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+atheneumd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-phored_LDADD += libbitcoin_wallet.a
+atheneumd_LDADD += libbitcoin_wallet.a
 endif
-phored_SOURCES = phored.cpp
+atheneumd_SOURCES = atheneumd.cpp
 #
 
 if TARGET_WINDOWS
-phored_SOURCES += phored-res.rc
+atheneumd_SOURCES += atheneumd-res.rc
 endif
 
-phored_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-phored_CPPFLAGS = $(BITCOIN_INCLUDES)
-phored_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+atheneumd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+atheneumd_CPPFLAGS = $(BITCOIN_INCLUDES)
+atheneumd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# phore-cli binary #
-phore_cli_LDADD = \
+# atheneum-cli binary #
+atheneum_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
@@ -441,14 +441,14 @@ phore_cli_LDADD = \
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
 
-phore_cli_SOURCES = \
-  phore-cli.cpp
+atheneum_cli_SOURCES = \
+  atheneum-cli.cpp
 
-phore_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+atheneum_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
-# phore-tx binary #
-phore_tx_LDADD = \
+# atheneum-tx binary #
+atheneum_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_ZEROCOIN) \
@@ -458,15 +458,15 @@ phore_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-phore_tx_SOURCES = phore-tx.cpp
-phore_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+atheneum_tx_SOURCES = atheneum-tx.cpp
+atheneum_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-phore_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+atheneum_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-phore_cli_SOURCES += phore-cli-res.rc
+atheneum_cli_SOURCES += atheneum-cli-res.rc
 endif
-phore_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+atheneum_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

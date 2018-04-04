@@ -115,8 +115,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>Phore adresa s kojom je potpisana poruka</translation>
+        <source>The Atheneum address the message was signed with</source>
+        <translation>Atheneum adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -150,8 +150,8 @@
         <translation>Otvori konfiguracijsku datoteku</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Atheneum Core</source>
+        <translation>Atheneum Core</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -162,8 +162,8 @@
         <translation>&amp;BIP38 alat</translation>
     </message>
     <message>
-        <source>Phore Core client</source>
-        <translation>Phore Core klijent</translation>
+        <source>Atheneum Core client</source>
+        <translation>Atheneum Core klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -256,15 +256,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Atheneum Core</source>
+        <translation>Atheneum Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Atheneum Core</source>
+        <translation>Atheneum Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -597,8 +597,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Phore Core is shutting down...</source>
-        <translation>Phore Core se gasi...</translation>
+        <source>Atheneum Core is shutting down...</source>
+        <translation>Atheneum Core se gasi...</translation>
     </message>
     </context>
 <context>
@@ -620,8 +620,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>Phore adresa s kojom je potpisana poruka</translation>
+        <source>The Atheneum address the message was signed with</source>
+        <translation>Atheneum adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Message signed.</source>
@@ -635,8 +635,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Atheneum Core</source>
+        <translation>Atheneum Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -790,7 +790,7 @@
     </message>
     </context>
 <context>
-    <name>phore-core</name>
+    <name>Atheneum-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>
